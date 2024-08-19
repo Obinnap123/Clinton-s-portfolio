@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment | Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Opay</h1>
+    <p>Create an account for your business.</p>
+    <form>
+      <input type="image" src="./assets/images/OPay.jpg" alt="opay logo" />
+      <div class="container">
+        <div class="text">
+          <label for="fName"><span>*</span>First Name</label>
+          <input
+            type="text"
+            id="fName"
+            class="fName-input"
+            placeholder="First Name"
+          />
+          <label for="email"><span>*</span>Email</label>
+          <input
+            type="email"
+            id="email"
+            class="email-input"
+            placeholder="Email"
+            required
+          />
+          <label for="business"><span>*</span>Business</label>
+          <input type="text" id="business" placeholder="Business Name" /
+          required autocomplete="on">
+          <label for="Average"><span>*</span>Average Monthly Collection</label>
+          <select name="Average" id="Average">
+            <option value="" disabled selected>Select</option>
+            <option value="Just Getting Started">Just Getting Started</option>
+            <option value="More than EGP 500,000">More than EGP 500,000</option>
+            <option value="LesS than EGP 500,000">LesS than EGP 500,000</option>
+          </select>
+          <label for="password"><span>*</span>Set Password</label>
+          <input type="password" id="password" / placeholder="Password"
+          required>
+        </div>
+        <div class="text2">
+          <label for="lName"><span>*</span>Last Name</label>
+          <input type="text" id="lName" placeholder="Last Name" />
+          <label for="phone number"><span>*</span>Phone Number</label>
+          <div class="phone-input-container">
+            <select class="country-code" id="phone number">
+              <option value="" disabled selected>Select country code</option>
+              <option value="+234">Nigeria (+234)</option>
+              <option value="+254">Kenya (+254)</option>
+              <option value="+27">South Africa (+27)</option>
+              <option value="+233">Ghana (+233)</option>
+              <option value="+237">Cameroon (+237)</option>
+              <!-- Add more country codes here -->
+            </select>
+            <input type="tel" class="phone-number" placeholder="Phone Number" />
+          </div>
+          <label for="Merchant Type"><span>*</span>Merchant Type</label>
+          <select id="Merchant Type">
+            <option value="corporate">Corporate</option>
+          </select>
+          <label for="service"><span>*</span>Service Type</label>
+          <select id="service">
+            <option value="" disabled selected>Select</option>
+            <option value="Online Payment Gateway">
+              Online Payment Gateway
+            </option>
+          </select>
+          <label for="password"><span>*</span>Confirm Password</label>
+          <input type="password" id="password" placeholder="Confirm Password" /
+          required>
+        </div>
+      </div>
+      <input type="checkbox" class="checkbox" /><label
+        >I confirm that I have read OPay's Privacy Policy and terms of use I
+        agree to the use of my data in line therewith.</label
+      >
+      <button type="submit">Create Account</button>
+    </form>
+  </body>
+</html>

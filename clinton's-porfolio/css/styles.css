@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.2rem;
+}
+h1,
+p {
+  margin: 2rem;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4px; */
+  margin: 1rem;
+  padding: 1rem;
+}
+.text label {
+  margin-bottom: 1rem;
+}
+.text input {
+  margin-bottom: 2rem;
+  border-radius: 1rex;
+  border: 1px solid rgb(227, 227, 229);
+  background-color: rgb(227, 227, 229);
+}
+.text select {
+  margin-bottom: 2rem;
+  border-radius: 1rex;
+  border: 1px solid rgb(227, 227, 229);
+  background-color: rgb(227, 227, 229);
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+}
+.text2 label {
+  margin-bottom: 1rem;
+}
+.text2 input {
+  margin-bottom: 2rem;
+  border-radius: 1rex;
+  border: 1px solid rgb(227, 227, 229);
+  background-color: rgb(227, 227, 229);
+}
+.text2 select {
+  margin-bottom: 2rem;
+  border-radius: 1rex;
+  border: 1px solid rgb(227, 227, 229);
+  background-color: rgb(227, 227, 229);
+}
+
+input,
+select {
+  font-size: inherit;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 500px;
+}
+button {
+  margin: 2rem;
+  width: 50%;
+  height: 100px;
+  font-size: 35px;
+  background-color: #3bbb61;
+  color: white;
+  border: 1px solid #3bbb61;
+  border-radius: 10px;
+}
+.checkbox {
+  margin-bottom: 0;
+  width: 70px;
+  height: 50px;
+}
+span {
+  color: red;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
